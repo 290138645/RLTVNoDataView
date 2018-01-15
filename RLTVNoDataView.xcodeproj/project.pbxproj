@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2274152007CC3600B0DA63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2274142007CC3600B0DA63 /* AppDelegate.m */; };
+		FC2274182007CC3600B0DA63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2274172007CC3600B0DA63 /* ViewController.m */; };
+		FC22741B2007CC3600B0DA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2274192007CC3600B0DA63 /* Main.storyboard */; };
+		FC22741D2007CC3600B0DA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC22741C2007CC3600B0DA63 /* Assets.xcassets */; };
+		FC2274202007CC3600B0DA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC22741E2007CC3600B0DA63 /* LaunchScreen.storyboard */; };
+		FC2274232007CC3600B0DA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2274222007CC3600B0DA63 /* main.m */; };
+		FC22742D2007CC3600B0DA63 /* RLTVNoDataViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC22742C2007CC3600B0DA63 /* RLTVNoDataViewTests.m */; };
+		FC2274382007CC3600B0DA63 /* RLTVNoDataViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2274372007CC3600B0DA63 /* RLTVNoDataViewUITests.m */; };
+		FC2C3AE520075EFF000B7C7C /* UITableView+RLNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2C3AE420075EFF000B7C7C /* UITableView+RLNoDataView.m */; };
+		FC2DCD4020084EF700886FBC /* RLNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD3F20084EF700886FBC /* RLNoDataView.m */; };
+		FC2DCDB520085CFF00886FBC /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD8920085CFE00886FBC /* MJRefreshAutoFooter.m */; };
+		FC2DCDB620085CFF00886FBC /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD8B20085CFE00886FBC /* MJRefreshBackFooter.m */; };
+		FC2DCDB720085CFF00886FBC /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD8D20085CFE00886FBC /* MJRefreshComponent.m */; };
+		FC2DCDB820085CFF00886FBC /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD8F20085CFE00886FBC /* MJRefreshFooter.m */; };
+		FC2DCDB920085CFF00886FBC /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9120085CFE00886FBC /* MJRefreshHeader.m */; };
+		FC2DCDBA20085CFF00886FBC /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9620085CFE00886FBC /* MJRefreshAutoGifFooter.m */; };
+		FC2DCDBB20085CFF00886FBC /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9820085CFE00886FBC /* MJRefreshAutoNormalFooter.m */; };
+		FC2DCDBC20085CFF00886FBC /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9A20085CFE00886FBC /* MJRefreshAutoStateFooter.m */; };
+		FC2DCDBD20085CFF00886FBC /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9D20085CFE00886FBC /* MJRefreshBackGifFooter.m */; };
+		FC2DCDBE20085CFF00886FBC /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD9F20085CFE00886FBC /* MJRefreshBackNormalFooter.m */; };
+		FC2DCDBF20085CFF00886FBC /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDA120085CFE00886FBC /* MJRefreshBackStateFooter.m */; };
+		FC2DCDC020085CFF00886FBC /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDA420085CFE00886FBC /* MJRefreshGifHeader.m */; };
+		FC2DCDC120085CFF00886FBC /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDA620085CFE00886FBC /* MJRefreshNormalHeader.m */; };
+		FC2DCDC220085CFF00886FBC /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDA820085CFE00886FBC /* MJRefreshStateHeader.m */; };
+		FC2DCDC320085CFF00886FBC /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC2DCDA920085CFE00886FBC /* MJRefresh.bundle */; };
+		FC2DCDC420085CFF00886FBC /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDAC20085CFE00886FBC /* MJRefreshConst.m */; };
+		FC2DCDC520085CFF00886FBC /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDAE20085CFE00886FBC /* NSBundle+MJRefresh.m */; };
+		FC2DCDC620085CFF00886FBC /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDB020085CFE00886FBC /* UIScrollView+MJExtension.m */; };
+		FC2DCDC720085CFF00886FBC /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDB220085CFE00886FBC /* UIScrollView+MJRefresh.m */; };
+		FC2DCDC820085CFF00886FBC /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCDB420085CFE00886FBC /* UIView+MJExtension.m */; };
+		FC2DCDCC200863FB00886FBC /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2DCDCB200863FB00886FBC /* 123.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2274292007CC3600B0DA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2274082007CC3500B0DA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC22740F2007CC3500B0DA63;
+			remoteInfo = RLTVNoDataView;
+		};
+		FC2274342007CC3600B0DA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2274082007CC3500B0DA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC22740F2007CC3500B0DA63;
+			remoteInfo = RLTVNoDataView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2274102007CC3500B0DA63 /* RLTVNoDataView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLTVNoDataView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2274132007CC3600B0DA63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC2274142007CC3600B0DA63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC2274162007CC3600B0DA63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC2274172007CC3600B0DA63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC22741A2007CC3600B0DA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC22741C2007CC3600B0DA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC22741F2007CC3600B0DA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2274212007CC3600B0DA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2274222007CC3600B0DA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2274282007CC3600B0DA63 /* RLTVNoDataViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLTVNoDataViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC22742C2007CC3600B0DA63 /* RLTVNoDataViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLTVNoDataViewTests.m; sourceTree = "<group>"; };
+		FC22742E2007CC3600B0DA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2274332007CC3600B0DA63 /* RLTVNoDataViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLTVNoDataViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2274372007CC3600B0DA63 /* RLTVNoDataViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLTVNoDataViewUITests.m; sourceTree = "<group>"; };
+		FC2274392007CC3600B0DA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2C3AE320075EFF000B7C7C /* UITableView+RLNoDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+RLNoDataView.h"; sourceTree = "<group>"; };
+		FC2C3AE420075EFF000B7C7C /* UITableView+RLNoDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RLNoDataView.m"; sourceTree = "<group>"; };
+		FC2DCD3E20084EF700886FBC /* RLNoDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLNoDataView.h; sourceTree = "<group>"; };
+		FC2DCD3F20084EF700886FBC /* RLNoDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLNoDataView.m; sourceTree = "<group>"; };
+		FC2DCD8820085CFE00886FBC /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		FC2DCD8920085CFE00886FBC /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		FC2DCD8A20085CFE00886FBC /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		FC2DCD8B20085CFE00886FBC /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		FC2DCD8C20085CFE00886FBC /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		FC2DCD8D20085CFE00886FBC /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		FC2DCD8E20085CFE00886FBC /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
+		FC2DCD8F20085CFE00886FBC /* MJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooter.m; sourceTree = "<group>"; };
+		FC2DCD9020085CFE00886FBC /* MJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		FC2DCD9120085CFE00886FBC /* MJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		FC2DCD9520085CFE00886FBC /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		FC2DCD9620085CFE00886FBC /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		FC2DCD9720085CFE00886FBC /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		FC2DCD9820085CFE00886FBC /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		FC2DCD9920085CFE00886FBC /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		FC2DCD9A20085CFE00886FBC /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		FC2DCD9C20085CFE00886FBC /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		FC2DCD9D20085CFE00886FBC /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		FC2DCD9E20085CFE00886FBC /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		FC2DCD9F20085CFE00886FBC /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		FC2DCDA020085CFE00886FBC /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		FC2DCDA120085CFE00886FBC /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		FC2DCDA320085CFE00886FBC /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		FC2DCDA420085CFE00886FBC /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		FC2DCDA520085CFE00886FBC /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		FC2DCDA620085CFE00886FBC /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		FC2DCDA720085CFE00886FBC /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		FC2DCDA820085CFE00886FBC /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		FC2DCDA920085CFE00886FBC /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		FC2DCDAA20085CFE00886FBC /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		FC2DCDAB20085CFE00886FBC /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		FC2DCDAC20085CFE00886FBC /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		FC2DCDAD20085CFE00886FBC /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		FC2DCDAE20085CFE00886FBC /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		FC2DCDAF20085CFE00886FBC /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		FC2DCDB020085CFE00886FBC /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		FC2DCDB120085CFE00886FBC /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		FC2DCDB220085CFE00886FBC /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		FC2DCDB320085CFE00886FBC /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		FC2DCDB420085CFE00886FBC /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		FC2DCDCB200863FB00886FBC /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC22740D2007CC3500B0DA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2274252007CC3600B0DA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2274302007CC3600B0DA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2274072007CC3500B0DA63 = {
+			isa = PBXGroup;
+			children = (
+				FC2274122007CC3500B0DA63 /* RLTVNoDataView */,
+				FC22742B2007CC3600B0DA63 /* RLTVNoDataViewTests */,
+				FC2274362007CC3600B0DA63 /* RLTVNoDataViewUITests */,
+				FC2274112007CC3500B0DA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2274112007CC3500B0DA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2274102007CC3500B0DA63 /* RLTVNoDataView.app */,
+				FC2274282007CC3600B0DA63 /* RLTVNoDataViewTests.xctest */,
+				FC2274332007CC3600B0DA63 /* RLTVNoDataViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2274122007CC3500B0DA63 /* RLTVNoDataView */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD8620085CFE00886FBC /* MJRefresh */,
+				FC2274452007CC9800B0DA63 /* NoDataView */,
+				FC2274132007CC3600B0DA63 /* AppDelegate.h */,
+				FC2274142007CC3600B0DA63 /* AppDelegate.m */,
+				FC2274162007CC3600B0DA63 /* ViewController.h */,
+				FC2274172007CC3600B0DA63 /* ViewController.m */,
+				FC2274192007CC3600B0DA63 /* Main.storyboard */,
+				FC22741C2007CC3600B0DA63 /* Assets.xcassets */,
+				FC22741E2007CC3600B0DA63 /* LaunchScreen.storyboard */,
+				FC2274212007CC3600B0DA63 /* Info.plist */,
+				FC2274222007CC3600B0DA63 /* main.m */,
+			);
+			path = RLTVNoDataView;
+			sourceTree = "<group>";
+		};
+		FC22742B2007CC3600B0DA63 /* RLTVNoDataViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC22742C2007CC3600B0DA63 /* RLTVNoDataViewTests.m */,
+				FC22742E2007CC3600B0DA63 /* Info.plist */,
+			);
+			path = RLTVNoDataViewTests;
+			sourceTree = "<group>";
+		};
+		FC2274362007CC3600B0DA63 /* RLTVNoDataViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2274372007CC3600B0DA63 /* RLTVNoDataViewUITests.m */,
+				FC2274392007CC3600B0DA63 /* Info.plist */,
+			);
+			path = RLTVNoDataViewUITests;
+			sourceTree = "<group>";
+		};
+		FC2274452007CC9800B0DA63 /* NoDataView */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCDCB200863FB00886FBC /* 123.jpg */,
+				FC2C3AE320075EFF000B7C7C /* UITableView+RLNoDataView.h */,
+				FC2C3AE420075EFF000B7C7C /* UITableView+RLNoDataView.m */,
+				FC2DCD3E20084EF700886FBC /* RLNoDataView.h */,
+				FC2DCD3F20084EF700886FBC /* RLNoDataView.m */,
+			);
+			path = NoDataView;
+			sourceTree = "<group>";
+		};
+		FC2DCD8620085CFE00886FBC /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD8720085CFE00886FBC /* Base */,
+				FC2DCD9220085CFE00886FBC /* Custom */,
+				FC2DCDA920085CFE00886FBC /* MJRefresh.bundle */,
+				FC2DCDAA20085CFE00886FBC /* MJRefresh.h */,
+				FC2DCDAB20085CFE00886FBC /* MJRefreshConst.h */,
+				FC2DCDAC20085CFE00886FBC /* MJRefreshConst.m */,
+				FC2DCDAD20085CFE00886FBC /* NSBundle+MJRefresh.h */,
+				FC2DCDAE20085CFE00886FBC /* NSBundle+MJRefresh.m */,
+				FC2DCDAF20085CFE00886FBC /* UIScrollView+MJExtension.h */,
+				FC2DCDB020085CFE00886FBC /* UIScrollView+MJExtension.m */,
+				FC2DCDB120085CFE00886FBC /* UIScrollView+MJRefresh.h */,
+				FC2DCDB220085CFE00886FBC /* UIScrollView+MJRefresh.m */,
+				FC2DCDB320085CFE00886FBC /* UIView+MJExtension.h */,
+				FC2DCDB420085CFE00886FBC /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		FC2DCD8720085CFE00886FBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD8820085CFE00886FBC /* MJRefreshAutoFooter.h */,
+				FC2DCD8920085CFE00886FBC /* MJRefreshAutoFooter.m */,
+				FC2DCD8A20085CFE00886FBC /* MJRefreshBackFooter.h */,
+				FC2DCD8B20085CFE00886FBC /* MJRefreshBackFooter.m */,
+				FC2DCD8C20085CFE00886FBC /* MJRefreshComponent.h */,
+				FC2DCD8D20085CFE00886FBC /* MJRefreshComponent.m */,
+				FC2DCD8E20085CFE00886FBC /* MJRefreshFooter.h */,
+				FC2DCD8F20085CFE00886FBC /* MJRefreshFooter.m */,
+				FC2DCD9020085CFE00886FBC /* MJRefreshHeader.h */,
+				FC2DCD9120085CFE00886FBC /* MJRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FC2DCD9220085CFE00886FBC /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD9320085CFE00886FBC /* Footer */,
+				FC2DCDA220085CFE00886FBC /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FC2DCD9320085CFE00886FBC /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD9420085CFE00886FBC /* Auto */,
+				FC2DCD9B20085CFE00886FBC /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		FC2DCD9420085CFE00886FBC /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD9520085CFE00886FBC /* MJRefreshAutoGifFooter.h */,
+				FC2DCD9620085CFE00886FBC /* MJRefreshAutoGifFooter.m */,
+				FC2DCD9720085CFE00886FBC /* MJRefreshAutoNormalFooter.h */,
+				FC2DCD9820085CFE00886FBC /* MJRefreshAutoNormalFooter.m */,
+				FC2DCD9920085CFE00886FBC /* MJRefreshAutoStateFooter.h */,
+				FC2DCD9A20085CFE00886FBC /* MJRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		FC2DCD9B20085CFE00886FBC /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCD9C20085CFE00886FBC /* MJRefreshBackGifFooter.h */,
+				FC2DCD9D20085CFE00886FBC /* MJRefreshBackGifFooter.m */,
+				FC2DCD9E20085CFE00886FBC /* MJRefreshBackNormalFooter.h */,
+				FC2DCD9F20085CFE00886FBC /* MJRefreshBackNormalFooter.m */,
+				FC2DCDA020085CFE00886FBC /* MJRefreshBackStateFooter.h */,
+				FC2DCDA120085CFE00886FBC /* MJRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		FC2DCDA220085CFE00886FBC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DCDA320085CFE00886FBC /* MJRefreshGifHeader.h */,
+				FC2DCDA420085CFE00886FBC /* MJRefreshGifHeader.m */,
+				FC2DCDA520085CFE00886FBC /* MJRefreshNormalHeader.h */,
+				FC2DCDA620085CFE00886FBC /* MJRefreshNormalHeader.m */,
+				FC2DCDA720085CFE00886FBC /* MJRefreshStateHeader.h */,
+				FC2DCDA820085CFE00886FBC /* MJRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC22740F2007CC3500B0DA63 /* RLTVNoDataView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC22743C2007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataView" */;
+			buildPhases = (
+				FC22740C2007CC3500B0DA63 /* Sources */,
+				FC22740D2007CC3500B0DA63 /* Frameworks */,
+				FC22740E2007CC3500B0DA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLTVNoDataView;
+			productName = RLTVNoDataView;
+			productReference = FC2274102007CC3500B0DA63 /* RLTVNoDataView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2274272007CC3600B0DA63 /* RLTVNoDataViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC22743F2007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataViewTests" */;
+			buildPhases = (
+				FC2274242007CC3600B0DA63 /* Sources */,
+				FC2274252007CC3600B0DA63 /* Frameworks */,
+				FC2274262007CC3600B0DA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC22742A2007CC3600B0DA63 /* PBXTargetDependency */,
+			);
+			name = RLTVNoDataViewTests;
+			productName = RLTVNoDataViewTests;
+			productReference = FC2274282007CC3600B0DA63 /* RLTVNoDataViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2274322007CC3600B0DA63 /* RLTVNoDataViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2274422007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataViewUITests" */;
+			buildPhases = (
+				FC22742F2007CC3600B0DA63 /* Sources */,
+				FC2274302007CC3600B0DA63 /* Frameworks */,
+				FC2274312007CC3600B0DA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2274352007CC3600B0DA63 /* PBXTargetDependency */,
+			);
+			name = RLTVNoDataViewUITests;
+			productName = RLTVNoDataViewUITests;
+			productReference = FC2274332007CC3600B0DA63 /* RLTVNoDataViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2274082007CC3500B0DA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RL;
+				TargetAttributes = {
+					FC22740F2007CC3500B0DA63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FC2274272007CC3600B0DA63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC22740F2007CC3500B0DA63;
+					};
+					FC2274322007CC3600B0DA63 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC22740F2007CC3500B0DA63;
+					};
+				};
+			};
+			buildConfigurationList = FC22740B2007CC3500B0DA63 /* Build configuration list for PBXProject "RLTVNoDataView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2274072007CC3500B0DA63;
+			productRefGroup = FC2274112007CC3500B0DA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC22740F2007CC3500B0DA63 /* RLTVNoDataView */,
+				FC2274272007CC3600B0DA63 /* RLTVNoDataViewTests */,
+				FC2274322007CC3600B0DA63 /* RLTVNoDataViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC22740E2007CC3500B0DA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2274202007CC3600B0DA63 /* LaunchScreen.storyboard in Resources */,
+				FC22741D2007CC3600B0DA63 /* Assets.xcassets in Resources */,
+				FC2DCDC320085CFF00886FBC /* MJRefresh.bundle in Resources */,
+				FC22741B2007CC3600B0DA63 /* Main.storyboard in Resources */,
+				FC2DCDCC200863FB00886FBC /* 123.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2274262007CC3600B0DA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2274312007CC3600B0DA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC22740C2007CC3500B0DA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DCDC120085CFF00886FBC /* MJRefreshNormalHeader.m in Sources */,
+				FC2DCDC520085CFF00886FBC /* NSBundle+MJRefresh.m in Sources */,
+				FC2DCDC220085CFF00886FBC /* MJRefreshStateHeader.m in Sources */,
+				FC2DCDC020085CFF00886FBC /* MJRefreshGifHeader.m in Sources */,
+				FC2DCDBE20085CFF00886FBC /* MJRefreshBackNormalFooter.m in Sources */,
+				FC2DCDC420085CFF00886FBC /* MJRefreshConst.m in Sources */,
+				FC2DCDB720085CFF00886FBC /* MJRefreshComponent.m in Sources */,
+				FC2DCDC820085CFF00886FBC /* UIView+MJExtension.m in Sources */,
+				FC2DCDBA20085CFF00886FBC /* MJRefreshAutoGifFooter.m in Sources */,
+				FC2DCDC620085CFF00886FBC /* UIScrollView+MJExtension.m in Sources */,
+				FC2DCDB620085CFF00886FBC /* MJRefreshBackFooter.m in Sources */,
+				FC2274182007CC3600B0DA63 /* ViewController.m in Sources */,
+				FC2DCD4020084EF700886FBC /* RLNoDataView.m in Sources */,
+				FC2DCDBB20085CFF00886FBC /* MJRefreshAutoNormalFooter.m in Sources */,
+				FC2C3AE520075EFF000B7C7C /* UITableView+RLNoDataView.m in Sources */,
+				FC2DCDBD20085CFF00886FBC /* MJRefreshBackGifFooter.m in Sources */,
+				FC2DCDB920085CFF00886FBC /* MJRefreshHeader.m in Sources */,
+				FC2DCDBC20085CFF00886FBC /* MJRefreshAutoStateFooter.m in Sources */,
+				FC2DCDB820085CFF00886FBC /* MJRefreshFooter.m in Sources */,
+				FC2DCDC720085CFF00886FBC /* UIScrollView+MJRefresh.m in Sources */,
+				FC2DCDBF20085CFF00886FBC /* MJRefreshBackStateFooter.m in Sources */,
+				FC2274232007CC3600B0DA63 /* main.m in Sources */,
+				FC2DCDB520085CFF00886FBC /* MJRefreshAutoFooter.m in Sources */,
+				FC2274152007CC3600B0DA63 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2274242007CC3600B0DA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC22742D2007CC3600B0DA63 /* RLTVNoDataViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC22742F2007CC3600B0DA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2274382007CC3600B0DA63 /* RLTVNoDataViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC22742A2007CC3600B0DA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC22740F2007CC3500B0DA63 /* RLTVNoDataView */;
+			targetProxy = FC2274292007CC3600B0DA63 /* PBXContainerItemProxy */;
+		};
+		FC2274352007CC3600B0DA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC22740F2007CC3500B0DA63 /* RLTVNoDataView */;
+			targetProxy = FC2274342007CC3600B0DA63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2274192007CC3600B0DA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC22741A2007CC3600B0DA63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC22741E2007CC3600B0DA63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC22741F2007CC3600B0DA63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC22743A2007CC3600B0DA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC22743B2007CC3600B0DA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC22743D2007CC3600B0DA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC22743E2007CC3600B0DA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC2274402007CC3600B0DA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RLTVNoDataView.app/RLTVNoDataView";
+			};
+			name = Debug;
+		};
+		FC2274412007CC3600B0DA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RLTVNoDataView.app/RLTVNoDataView";
+			};
+			name = Release;
+		};
+		FC2274432007CC3600B0DA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RLTVNoDataView;
+			};
+			name = Debug;
+		};
+		FC2274442007CC3600B0DA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RLTVNoDataViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RL.RLTVNoDataViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RLTVNoDataView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC22740B2007CC3500B0DA63 /* Build configuration list for PBXProject "RLTVNoDataView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC22743A2007CC3600B0DA63 /* Debug */,
+				FC22743B2007CC3600B0DA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC22743C2007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC22743D2007CC3600B0DA63 /* Debug */,
+				FC22743E2007CC3600B0DA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC22743F2007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2274402007CC3600B0DA63 /* Debug */,
+				FC2274412007CC3600B0DA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2274422007CC3600B0DA63 /* Build configuration list for PBXNativeTarget "RLTVNoDataViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2274432007CC3600B0DA63 /* Debug */,
+				FC2274442007CC3600B0DA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2274082007CC3500B0DA63 /* Project object */;
+}
